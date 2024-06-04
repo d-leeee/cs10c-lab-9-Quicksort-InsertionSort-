@@ -131,11 +131,14 @@ int main() {
     int quicksortMedianArray[NUMBERS_SIZE];
     int InsertionSortArray[NUMBERS_SIZE];
 
-    // Test already sorted array
+    /*
+    Test already sorted array
+    
     int sortedArray[NUMBERS_SIZE];
     for (int i=0; i< NUMBERS_SIZE; i++) {
         sortedArray[i] = i;
     }
+    */
 
     // Generate random integers to fill the arrays
     fillArrays(quicksortMidPointArray, quicksortMedianArray, InsertionSortArray);
